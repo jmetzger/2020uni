@@ -1,5 +1,9 @@
 # Eclipse GIT / Gitlab - Training (Remote Training GIT 07.2020)
 
+## Gitlab - Requirements ## 
+
+https://docs.gitlab.com/ee/install/requirements.html
+
 ## Schnittstellen (Ansatzpunkte für Entwicklung Plugin)
 
 ### Programmierung über JGit (Java-Bibliothek unterhalb von eGIT) ###
