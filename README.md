@@ -10,4 +10,11 @@ EGit verwendet die JGit - Bibliothek:
 
 https://www.vogella.com/tutorials/JGit/article.html
 
+### API von gitlab ###
 
+https://docs.gitlab.com/ee/api/
+
+```
+# Auch Erstellen von Commits s durchführen
+https://docs.gitlab.com/ee/api/commits.html
+```
