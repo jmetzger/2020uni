@@ -27,6 +27,12 @@ HTTP Port: 7990
 Install as a service: Yes
 ```
 
+### Permissions ###
+
+  * Different laysers 
+  * Global Permissions,  Project Permissions, Repo Permissions
+
+
 ## Bitbucket - Cluster ## 
 
 ### Aufbau ###
