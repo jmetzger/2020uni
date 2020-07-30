@@ -6,6 +6,11 @@
 
 https://confluence.atlassian.com/bitbucketserver/install-a-bitbucket-server-trial-867192384.html
 
+```
+# Download Installer 
+# Use default options
+https://www.atlassian.com/software/bitbucket/download
+```
 
 
 ## Gitlab - Requirements ## 
