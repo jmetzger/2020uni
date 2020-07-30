@@ -1,5 +1,13 @@
 # Eclipse GIT / Gitlab - Training (Remote Training GIT 07.2020)
 
+## Bitbucket - Server ##
+
+### Install Trial ###
+
+https://confluence.atlassian.com/bitbucketserver/install-a-bitbucket-server-trial-867192384.html
+
+
+
 ## Gitlab - Requirements ## 
 
 https://docs.gitlab.com/ee/install/requirements.html
