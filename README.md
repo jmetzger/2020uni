@@ -10,7 +10,42 @@ https://confluence.atlassian.com/bitbucketserver/install-a-bitbucket-server-tria
 # Download Installer 
 # Use default options
 https://www.atlassian.com/software/bitbucket/download
+# You directly download it ... you need to know the version to construct the link
+wget https://www.atlassian.com/software/stash/downloads/binary/atlassian-bitbucket-7.4.0-x64.bin
 ```
+
+### Home Directories ###
+
+  * This is where the data and the repos live
+  * Just called home here, but not really /home 
+  
+```
+Installation Summary
+Installation Directory: /opt/atlassian/bitbucket/7.4.0 
+Home Directory: /var/atlassian/application-data/bitbucket 
+HTTP Port: 7990 
+Install as a service: Yes
+```
+
+## Bitbucket - Cluster ## 
+
+### Aufbau ###
+https://confluence.atlassian.com/bitbucketserver/clustering-with-bitbucket-data-center-776640164.html
+
+
+### Backup - Strategy ### 
+
+  * Backup Home- directory (/var/atlassian/application_data/bitbucket/) and db-server
+  
+  ```
+  # /etc/passwd 
+  atlbitbucket:x:1000:1000:Atlassian Bitbucket:/var/atlassian/application-data/bitbucket:/bin/sh
+
+  ```
+  * Scripte als Vorlage: 
+  * https://bitbucket.org/atlassianlabs/atlassian-bitbucket-diy-backup/src/master/
+  * Filesystem muss Snapshots unterstützen (Ausser ZFS und AWS liegen hier keine Scripte vor) 
+  * Sicherung von 
 
 
 ## Gitlab - Requirements ## 
